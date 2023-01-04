@@ -5,12 +5,12 @@
     <Registry>https://hub.docker.com/r/invoiceninja/invoiceninja/</Registry>
     <Network>bridge</Network>
     <Privileged>false</Privileged>
-    <Support></Support>
+    <Support>https://mylesbolton.com/</Support>
     <Project>https://invoiceninja.com/</Project>
     <Overview>Custom InvoiceNinja install</Overview>
     <Category>Productivity: Tools:</Category>
     <WebUI>http://[IP]:[PORT:80]</WebUI>
-    <TemplateURL></TemplateURL>
+    <TemplateURL>https://github.com/MylesBolton/unraidtemplate/blob/main/invoiceninja.xml</TemplateURL>
     <Icon>https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/img/invoiceninja.png</Icon>
       <Config Name="APP_ENV" Target="APP_ENV" Default="production" Description="Container Variable: APP_ENV" Type="Variable" Display="advanced" Required="false" Mask="false"/>
       <Config Name="Debug Mode" Target="APP_DEBUG" Default="0" Description="Container Variable: APP_DEBUG" Type="Variable" Display="advanced" Required="false" Mask="false"/>
