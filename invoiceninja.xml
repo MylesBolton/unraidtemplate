@@ -33,6 +33,5 @@
       <Config Name="HTTP Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="false" Mask="false"/>
       <Config Name="HTTPS Port" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="false" Mask="false"/>
       <Config Name="Storage" Target="/var/www/app/storage" Default="/mnt/user/appdata/invoiceninja/storage" Mode="rw" Description="Container Path: /var/www/app/storage" Type="Path" Display="advanced" Required="false" Mask="false"/>
-      <Config Name="Public" Target="/var/www/app/public" Default="/mnt/user/appdata/invoiceninja/public" Mode="rw" Description="Container Path: /var/www/app/public" Type="Path" Display="advanced" Required="false" Mask="false"/>
       <Config Name="Logo" Target="/var/www/app/public/logo" Default="/mnt/user/appdata/invoiceninja/logo" Mode="rw" Description="Container Path: /var/www/app/public/logo" Type="Path" Display="advanced" Required="false" Mask="false"/>
     </Container>
